@@ -1,0 +1,121 @@
+.Statistics-background-container {
+    background-image: url("../../assets/images/Statistics\ background.png");
+    background-size: cover; 
+    background-position: center; 
+    width: 100%; 
+    height: 100vh; 
+    position: relative;
+    margin-top: 3%;
+}
+
+.FourthH1 {
+    text-align: center;
+    color: black  ;
+    margin-top: 0;
+  }
+
+  .Statistics-box{
+
+        background-color:#393e46;
+        height:446px;
+        width:1320px;
+        border-radius:24px;
+        margin: auto;
+        margin-top: 6%;
+  }
+  
+  .P1, .P2{
+    margin-top: 2%;
+    color:#ffffff;
+    text-align:center;
+    font-size:20px;
+    line-height:30px;
+    border-style:hidden;
+    outline:none;
+  }
+
+.Stats-flexbox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+
+.Box{
+    background-color: white;
+    width: 200px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#393e46;
+    text-align:center;
+    vertical-align:text-top;
+    font-size:32px;
+    font-family:Poppins;
+    line-height:42px;
+    border-style:hidden;
+    outline:none;
+}
+
+.Text-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:#ffffff ;
+  font-size:20px;
+  font-family:Poppins;
+  line-height:30px;
+  border-style:hidden;
+  outline:none;
+  margin-top: 1%;
+}
+.P3{
+  color: white;
+  text-align:center;
+  width: 1320px;
+  height: 102px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Statistics-box {
+    display: flex;
+    flex-direction: row; /* Display items side by side */
+    width: 80%;
+  }
+
+  .Text-box {
+    display: flex;
+    flex-direction: column; /* Display paragraphs below each other */
+  }
+
+  .Stats-flexbox {
+    display: flex;
+    flex-direction: column; /* Display stats below each other */
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+  }
+
+  .P1, .P2{
+    display: none;
+  }
+  .P3{
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

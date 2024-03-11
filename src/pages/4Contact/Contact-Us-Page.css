@@ -1,0 +1,191 @@
+.Main-H1 {
+  color: #ffa300;
+  text-align: center;
+  vertical-align: text-top;
+  font-size: 32px;
+  font-family: Poppins;
+  line-height: 42px;
+  border-style: hidden;
+  outline: none;
+  margin-top: 5%;
+}
+
+.Contact-P {
+  color: rgba(57, 62, 70, 0.6000000238418579);
+  text-align: center;
+  vertical-align: text-top;
+  font-size: 16px;
+  font-family: Poppins;
+  line-height: 26px;
+  border-style: hidden;
+  outline: none;
+}
+
+.Info-Container {
+  background-image: url("../../assets/images/Contact-Us-Box-Image.png");
+  position: relative;
+  height: 580px;
+  width: 491px;
+  border-radius: 16px;
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.Info-H1 {
+  color: #ffffff;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 32px;
+  font-family: Poppins;
+  line-height: 42px;
+  border-style: hidden;
+  outline: none;
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+
+.Info-P {
+  color: #ffffff;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 16px;
+  font-family: Poppins;
+  line-height: 26px;
+  border-style: hidden;
+  outline: none;
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+
+.Info-Span {
+  color: #ffffff;
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 18px;
+  font-family: Poppins;
+  line-height: 28px;
+  border-style: hidden;
+  outline: none;
+  margin-left: 16px;
+}
+
+.Info-div {
+  margin-top: 10%;
+  margin-left: 40px;
+}
+
+.Social-Media {
+  position: relative;
+  top: 30%;
+  margin-left: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.Main-Container{
+  display: flex;
+  flex-direction: row;
+}
+
+.Customer-Info{
+  margin-top: 3%;
+  margin-left: 7%;
+  color:rgba(57, 62, 70, 0.8999999761581421);
+text-align:left;
+vertical-align:text-top;
+font-size:20px;
+font-family:Poppins;
+line-height:22px;
+border-style:hidden;
+outline:none;
+margin-bottom: 5%;
+}
+
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex; 
+  flex-direction: column;
+  color: rgba(255, 166, 0, 0.842);
+  
+}
+
+
+.search-box {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-bottom: 1px solid #ccc; 
+  transition: border-bottom-color 0.3s; 
+}
+
+
+
+.Contact-Button{
+  background-color:#ffa300;
+height:62px;
+width:244px;
+border-radius:8px;
+border: none;
+color: white;
+transition: background-color 0.3s;
+}
+
+Button:hover{
+  background-color: #393E46;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .Main-H1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .Info-Container {
+    width: 80%;
+    margin: 3% auto;
+  }
+
+  .Info-H1,
+  .Info-P,
+  .Info-Span {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .Info-div {
+    margin-left: 20px;
+  }
+
+  .Social-Media {
+    margin-left: 20px;
+  }
+
+  .Main-Container {
+    flex-direction: column;
+  }
+
+  .Customer-Info {
+    margin: 3% auto;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .input-group {
+    margin-bottom: 10px;
+  }
+
+  .search-box {
+    padding: 12px;
+  }
+
+  .Contact-Button {
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+  }
+}

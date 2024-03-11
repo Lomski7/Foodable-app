@@ -1,0 +1,77 @@
+.HIW-Main-LP-Container {
+  display: flex;
+}
+
+.Mockup {
+  margin-top: 8%;
+  margin-left: 10%;
+  width: 40%;
+}
+.Landing-Page-Box {
+  margin-top: 8%;
+  margin-left: 60px;
+}
+.HIW-LP-H1 {
+  color: rgba(57, 62, 70, 0.8999999761581421);
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 72px;
+  font-family: Poppins;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+}
+
+.HIW-LP-H2 {
+  color: rgba(57, 62, 70, 0.8999999761581421);
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 24px;
+  font-family: Poppins;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+  margin-top: 5%;
+}
+.HIW-LP-Btn {
+  margin-top: 10%;
+  background-color: #ffa300;
+  height: 58px;
+  width: 312px;
+  border-radius: 29px;
+  color: #ffffff;
+  vertical-align: text-top;
+  font-size: 24px;
+  font-family: Poppins;
+  line-height: 34px;
+  border-style: hidden;
+  outline: none;
+  left: 88px;
+  top: 12px;
+  transition: all 0.3s ease;
+}
+.HIW-LP-Btn:hover {
+  background-color: #393e46;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .HIW-Main-LP-Container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .Mockup {
+    width: 100%; /* Take up full width on smaller screens */
+    margin: auto; /* Center mockup on smaller screens */
+  }
+
+  .Landing-Page-Box {
+    width: 100%; /* Take up full width on smaller screens */
+    margin: 5% auto; /* Center box with margin */
+  }
+  .HIW-LP-Btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

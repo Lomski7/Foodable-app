@@ -1,0 +1,114 @@
+.second-background-container {
+  background-image: url("../../assets/images/Home-Second-image.png");
+  background-size: cover; 
+  background-position: center; 
+  width: 100%; 
+  height: 100vh; 
+  position: relative;
+}
+
+.SecondH1 {
+  text-align: center;
+  color: black  ;
+  position: relative;
+  top: 10%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  color: black;
+  margin-top: 13%;
+}
+
+
+.News-p {
+  margin-top: 16px;
+  color: var(--black-black80, rgba(57, 62, 70, 0.80));
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px;
+
+}
+
+.SecondH2{
+  color: var(--black-black100, #393E46);
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 80px; /* 150% */
+margin-top: 16px;
+}
+
+
+.NewsButton{
+  margin-top: 24px;
+  width: 174px;
+height: 46px;
+flex-shrink: 0;
+background: var(--Orange-Orange100, #FFA300);
+color: var(--White, #FFF);
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+border: none;
+border-radius: 30px;
+transition: all 0.3s ease;
+}
+
+.NewsButton:hover {
+  background-color: #393E46;;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens (tablet and below) */
+  .second-background-container {
+    height: auto; /* Allow background to adjust height dynamically */
+    padding-top: 50px; /* Add padding to maintain space around content */
+  }
+
+  .SecondH1 {
+    top: 5%; /* Adjust top position for better alignment */
+  }
+
+  .container {
+    flex-direction: column; /* Stack boxes vertically */
+    align-items: center; /* Center align boxes horizontally */
+  }
+
+  .box {
+    width: 80%; /* Set width to take up majority of the screen */
+    margin-top: 10%; /* Reduce top margin for better spacing */
+  }
+
+  .SecondH2 {
+    font-size: 20px; /* Reduce font size for better fit */
+    line-height: 1.5; /* Adjust line height for better spacing */
+  }
+
+  .News-p {
+    font-size: 14px; /* Reduce font size for better fit */
+    line-height: 1.4; /* Adjust line height for better spacing */
+  }
+
+  .NewsButton {
+    width: 150px; /* Reduce button width for better fit */
+    height: 40px; /* Reduce button height for better fit */
+    font-size: 12px; /* Reduce font size for better fit */
+    margin-top: 20px; /* Adjust top margin for better spacing */
+  }
+}

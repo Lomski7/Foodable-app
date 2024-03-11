@@ -1,0 +1,50 @@
+.footer{
+    background-color:#393e46;
+height:362px;
+width:100%;
+}
+
+.footerBtn{
+    background-color: rgba(255, 166, 0, 0.849);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .footer {
+      height: auto; /* Allow height to adjust dynamically */
+      padding: 20px; /* Add padding for better spacing */
+    }
+  
+    .row {
+      flex-direction: column; /* Stack columns vertically on smaller screens */
+      align-items: center; /* Center-align items horizontally */
+    }
+  
+    .col-6 {
+      width: 100%; /* Set width to 100% of the container */
+      max-width: none; /* Remove maximum width */
+      margin-bottom: 20px; /* Add bottom margin for better spacing */
+    }
+  
+    .col-md-2, .col-md-3, .offset-md-1 {
+      text-align: center; /* Center-align text */
+      margin-left: 0 !important; /* Remove left margin */
+      margin-right: 0 !important; /* Remove right margin */
+    }
+  
+    .footerBtn {
+      width: 100%; /* Set button width to 100% of the container */
+      max-width: 300px; /* Set maximum width for better readability */
+    }
+  
+    .nav-link {
+      text-align: center; /* Center-align text */
+    }
+  
+    form {
+      text-align: center; /* Center-align form elements */
+    }
+  }

@@ -1,0 +1,65 @@
+.OH-Container{
+    background-size: cover; 
+    background-position: center; 
+    width: 100%; 
+    height: 100vh; 
+    position: relative;
+    background-color: #f3f3f3;
+}
+
+.OH-H1{
+    text-align: center;
+    position: relative;
+    top: 14%;
+    color:#ffa300;
+    font-size:72px;
+    font-family:Poppins;
+    border-style:hidden;
+    outline:none;
+    }
+
+.OH-P1{
+    margin-top: 12%;
+    color: black;
+text-align:center;
+vertical-align:text-top;
+font-size:32px;
+font-family:Poppins;
+border-style:hidden;
+outline:none;
+line-height: 4rem;
+margin-left: 3%;
+    margin-right: 3%;
+}
+
+.OH-P2{
+    margin-top: 4%;
+    color: black;
+    text-align:center;
+    vertical-align:text-top;
+    font-size:32px;
+    font-family:Poppins;
+    border-style:hidden;
+    outline:none;
+    line-height: 4rem;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+    .OH-H1 {
+      font-size: 36px; /* Decrease font size for better fit within the box */
+      top: 5%; /* Adjust top position for better alignment */
+    }
+  
+    .OH-P1,
+    .OH-P2 {
+      margin-top: 12%; /* Decrease top margin for better spacing */
+      font-size: 20px; /* Decrease font size for better fit within the box */
+      line-height: 1.6; /* Adjust line height for better readability and spacing */
+      margin-left: 10%; /* Increase left margin for better alignment */
+      margin-right: 10%; /* Increase right margin for better alignment */
+    }
+  }
+  
+  

@@ -1,0 +1,95 @@
+.HIW-Main-Steps-Container {
+  margin-top: 12%;
+  margin-bottom: 10%;
+  margin-left: 20%;
+  background-color: #ffffff;
+  width: 1096px;
+  height: 1129px;
+  filter: drop-shadow(
+    2px 2px 5px  #FFA300
+  );
+}
+
+.Step-1,
+.Step-2,
+.Step-3,
+.Step-4 {
+  margin-top: 10%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.Step-1-text,
+.Step-2-text,
+.Step-3-text,
+.Step-4-text {
+  margin-left: 7%;
+  color: rgba(57, 62, 70, 0.8999999761581421);
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 24px;
+  font-family: Poppins;
+  line-height: auto;
+  border-style: hidden;
+  outline: none;
+}
+
+.Step-2 {
+  display: flex;
+}
+
+h1 span {
+  color: orange;
+}
+
+.Steps-Box{
+position: relative;
+top: 10%;
+}
+
+.circle {
+  display: inline-block;
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes it a circle */
+  text-align: center;
+  line-height: 50px; /* Vertically center the text */
+  border: 2px solid #ffa300;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .HIW-Main-Steps-Container {
+    margin: 10% auto; /* Center the container */
+    width: 80%; /* Adjust width for smaller screens */
+    height: auto; /* Auto height to fit content */
+    padding: 20px; /* Add padding for better spacing */
+  }
+
+  .Steps-Box {
+    display: flex;
+    flex-direction: column; /* Stack steps vertically on smaller screens */
+    align-items: center; /* Center steps horizontally */
+  }
+
+  .Step-1,
+  .Step-2,
+  .Step-3,
+  .Step-4 {
+    margin: 20px 0; /* Adjust margin for spacing between steps */
+    text-align: center; /* Center step content */
+    font-size: 16px; /* Adjust text size */
+  }
+
+  .Step-1 img,
+  .Step-2 img,
+  .Step-3 img,
+  .Step-4 img {
+    display: none; /* Hide images on smaller screens */
+  }
+}
+
+
+
